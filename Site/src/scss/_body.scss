@@ -1,0 +1,19 @@
+body{
+  background: $backgroundColor;
+  .container{
+    width: 900px;
+    margin: 0 auto;
+    background: red;
+    
+    .flex{
+      display: flex;
+      flex-flow: row;
+      aside {
+        height: $globalHeight;
+        width: 200px;
+        background: grey;
+      }
+
+    }
+  }
+}

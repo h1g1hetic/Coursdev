@@ -1,0 +1,15 @@
+body {
+  background: white; }
+  body .container {
+    width: 900px;
+    margin: 0 auto;
+    background: red; }
+    body .container .flex {
+      display: flex;
+      flex-flow: row; }
+      body .container .flex aside {
+        height: 1000px;
+        width: 200px;
+        background: grey; }
+
+/*# sourceMappingURL=style.css.map */
